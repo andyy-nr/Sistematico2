@@ -4,6 +4,8 @@
  */
 package sistandreanunez;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author isi7
@@ -14,7 +16,8 @@ public class SistAndreaNunez {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        JFrame gui = new gui();
+        gui.setVisible(true);
     }
     
 }
